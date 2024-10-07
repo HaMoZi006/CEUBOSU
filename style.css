@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(130, 89, 168);
+}
+button{
+    width: auto;
+    height: auto;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    opacity: 80%;
+    background-color: rgb(143, 189, 235);
+}
+#ceubosu{
+    margin: 10px;
+}
+
+
+header{
+    background-color: rgb(146, 171, 193);
+    border-radius: 10px;
+    width: auto;
+    height: auto;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yuri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'comic sans', Courier, monospace;
+}
+
+footer{
+    background-color: rgb(130, 20, 232);
+    border-radius: 10px;
+    width: auto;
+    height: auto;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
